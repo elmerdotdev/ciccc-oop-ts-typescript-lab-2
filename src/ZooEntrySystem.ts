@@ -23,7 +23,7 @@ class ZooGuest {
   constructor(name: string, age: number) {}
 
   enterZoo() {
-    return `🎟️ Welcome to the zoo, ${(this as any).name}! Enjoy your visit.`;
+    // Add welcome message
   }
 }
 
