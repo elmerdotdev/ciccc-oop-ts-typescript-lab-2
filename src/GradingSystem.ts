@@ -4,8 +4,8 @@
 // 1. Implement a class `Gradebook<T>` to store student records.
 // 2. Implement a method `addStudent` that adds a new student with an empty grade list.
 // 3. Implement a method `addGrade` that records a new grade for a student.
-// 4. Implement a method `getAverageGrade` that returns a student’s average grade.
-// 5. Implement a method `getStudentGrades` that returns all recorded grades for a student. Formula to get average: sumOfAllGrades / numberOfSubjects.
+// 4. Implement a method `getAverageGrade` that returns a student’s average grade. (Formula to get average: sumOfAllGrades / numberOfSubjects)
+// 5. Implement a method `getStudentGrades` that returns all recorded grades for a student. 
 // 6. Implement a method `updateSubjectGrade` that updates a subject grade for a student.
 
 interface Grade {
