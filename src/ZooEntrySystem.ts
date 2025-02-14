@@ -3,9 +3,7 @@
 //
 // 1. Create a decorator `AgeRestriction(minAge: number)` that modifies the constructor.
 // 2. The decorator should throw an error if the guest is below the required age.
-// 3. Apply `AgeRestriction(12)` to the `ZooGuest` class.
-// 4. Implement a method `enterZoo` in the  that returns a welcome message if entry is allowed.
-// 5. Ensure that the class prevents guests under 12 from being instantiated.
+// 3. Implement a method `enterZoo` in the  that returns a welcome message if entry is allowed.
 
 function AgeRestriction(minAge: number) {
   return function <T extends { new (...args: any[]): {} }>(target: T, context: ClassDecoratorContext) {
